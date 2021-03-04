@@ -1,0 +1,157 @@
+classe: indicatore di un insieme di entita che condividono una stessa caratteristica
+
+
+procedurale: divide il problema in piccole parti e vengono risolte di seguito
+oggetti: si concentra sui dati
+
+---------------------------------------
+
+esempio procedurale:
+	lava la patata
+	sbuccia
+	riempi la pentola
+	accendi fuoco
+	immergi patata
+	
+
+esempio oggetti:
+	patata(lava, sbuccia, immergi)
+	pentola(riempi, metti su fornello)
+	fornello(accendi, spegni)
+
+-----------------------------------------
+
+procedurale: 
+pro:
+	piu vicina al modo di pensare
+	piu semplice da leggere
+contro:
+	piu difficile da riutilizzare
+
+
+
+oggetti:
+pro:
+	piu facile da riutilizzare
+contro:
+	piu difficile da leggere
+
+------------------------------------------
+
+ basso livello             alto livello
+<----                           ---->
+linguaggio macchina          linguaggio programmazione
+
+
+
+------------------------------------------
+
+
+linguaggio interpretato: 
+
+	legge istruzione da sorgente
+	traduce istantaneamente in linguaggio macchina
+	esegue l'istruzione
+	passa a riga successiva
+contro:(piu lento, poco ottimizzato, necessita di interprete)
+pro:(puo essere eseguito su interpreti pensati per piu architetture, facile da modificare)
+
+
+linguaggio compilato:
+
+	legge tutta l'istruzione, verifica la correttezza e traduce in linuaggio macchina
+	memorizza il programma eseguibile
+
+(non necessita di essere distribuito con l'interprete)
+(non compatibile con architetture diverse, dopo ogni modifica il programma necessita di essere ricompilato)
+
+
+-------------------------------------------
+
+JAVA
+
+(sia compilato che interpretato)
+
+Dato un sorgente, il programma viene compilato e si ha un "bytecode", che ha bisogno comunque di un interprete per esere lanciato (JAVA Virtual Machine (JVM)).
+E' stato pensato per essere il piu possibile indipendete dall'hardware di esecuzione
+
+Java è ad alto livello, orientato a oggetti e a tipizzazione statica
+
+//creato negli anni 90
+
+la sintassi di base è molto simile al C++
+
+5 obiettivi di java
+-essere semplice orientato a oggetti e familiare
+-essere robusto e sicuro
+-essere indipendente dalla piattaforma
+-contenere strumenti e librerie per il networking
+-essere progettato per eseguire codice da sorgenti remote in modo sicuro
+
+
+JVM java virtual machine
+JRE java runtime enviroment
+JDK java development kit
+
+#comandi
+	javac (compila)
+	java (lancia il .class(eseguibile, bytecode, pseudocompilato))
+	jshell (apre shell di java per tutorial)
+
+
+
+#primo programma  (il nome del file deve essere lo stesso della classe superiore)
+
+public class HelloWorld{
+	public static void main(String[] args){
+		System.out.println("Hello World");
+	 }
+}
+
+
+obbligatorio typare tutto
+int (intero)
+float
+double
+String ("...")
+char ('...')
+
+a++
+++a
+
+
+printf("%d",int)           (%d = la variabile int che chiamo dopo la virgola)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
